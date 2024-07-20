@@ -1,0 +1,189 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 1050px;
+/*    border: 1px solid black;*/
+/*    height:100px;*/
+    margin: 0 auto;
+    
+}
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: mediumpurple;
+    text-decoration: none;
+    
+}
+
+#searchbox{
+    float: right;
+    background-color: #c4e773;
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url(images/magnifier.png) right center no-repeat;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background:purple;
+    
+}
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#d8df05,  #f6fa98);
+    background: -webkit-linear-gradient(#d8df05,  #f6fa98);
+    background: -o-inear-gradient(#d8df05,  #f6fa98);
+    background: -moz-linear-gradient(#d8df05,  #f6fa98);
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid blueviolet;
+     
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: blueviolet;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+    
+}
+
+#introduction{
+    background: linear-gradient(#c4e773, #19bf06);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: green;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #0c5d03;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #089db4;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: purple;
+    font-size: 30px;
+    
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#left-sidebar ul li{
+    padding-bottom: 6px;
+    padding-top: 5px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow.png);
+}
+
+#right-sidebar ul li{
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+    background: url(images/checkmark.png) no-repeat left center;
+    
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: purple;
+    font-size: 23px;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+    
+}
+
+#left-sidebar{
+    float: left;
+    
+}
+
+#right-sidebar{
+    float: right;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#d8df05,  #f6fa98);
+    background: -webkit-linear-gradient(#d8df05,  #f6fa98);
+    background: -o-linear-gradient(#d8df05,  #f6fa98);
+    background: -moz-linear-gradient(#d8df05,  #f6fa98);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
